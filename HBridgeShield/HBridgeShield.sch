@@ -1521,11 +1521,16 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <pinref part="ZX1" gate="G$1" pin="8"/>
 <wire x1="91.44" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="38.1" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="78.74" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="78.74" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="78.74" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="66.04" x2="5.08" y2="66.04" width="0.1524" layer="91"/>
 <label x="22.86" y="76.2" size="1.778" layer="95"/>
+<wire x1="27.94" y1="78.74" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
+<junction x="27.94" y="78.74"/>
+<pinref part="B1" gate="G$1" pin="VIN"/>
+<wire x1="27.94" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
